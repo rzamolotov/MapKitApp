@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76CD2A692A21E50400C09DEB /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD2A682A21E50400C09DEB /* ArtworkViews.swift */; };
 		76F7701F2A1896DB0077BD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7701E2A1896DB0077BD92 /* AppDelegate.swift */; };
 		76F770212A1896DB0077BD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F770202A1896DB0077BD92 /* SceneDelegate.swift */; };
 		76F770232A1896DB0077BD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F770222A1896DB0077BD92 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76CD2A682A21E50400C09DEB /* ArtworkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
 		76F7701B2A1896DB0077BD92 /* MapKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F7701E2A1896DB0077BD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F770202A1896DB0077BD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,12 +65,13 @@
 				76F7701E2A1896DB0077BD92 /* AppDelegate.swift */,
 				76F770202A1896DB0077BD92 /* SceneDelegate.swift */,
 				76F770222A1896DB0077BD92 /* ViewController.swift */,
+				76CD2A682A21E50400C09DEB /* ArtworkViews.swift */,
+				76F770342A18F9B90077BD92 /* Artwork.swift */,
 				76F770242A1896DB0077BD92 /* Main.storyboard */,
 				76F770272A1896DE0077BD92 /* Assets.xcassets */,
 				76F770292A1896DE0077BD92 /* LaunchScreen.storyboard */,
 				76F7702C2A1896DE0077BD92 /* Info.plist */,
 				76F770322A1897220077BD92 /* PublicArt.geojson */,
-				76F770342A18F9B90077BD92 /* Artwork.swift */,
 			);
 			path = MapKitApp;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F770232A1896DB0077BD92 /* ViewController.swift in Sources */,
+				76CD2A692A21E50400C09DEB /* ArtworkViews.swift in Sources */,
 				76F7701F2A1896DB0077BD92 /* AppDelegate.swift in Sources */,
 				76F770212A1896DB0077BD92 /* SceneDelegate.swift in Sources */,
 				76F770352A18F9B90077BD92 /* Artwork.swift in Sources */,
@@ -303,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
